@@ -1,6 +1,6 @@
 import axios from "axios";
 const AxiosInstance = axios.create({
-  baseURL: "https://catering-backend-l91k.onrender.com/api/",
+  baseURL: "https://canopus-backend-ydod.onrender.com/api/",
   headers: {
     "Content-Type": "application/json",
   },
