@@ -1,6 +1,6 @@
 import axios from "axios";
 const AxiosInstance = axios.create({
-  baseURL: "https://canopus-backend-ydod.onrender.com/api/",
+  baseURL: "https://catering-backend-sa1h.onrender.com/api/",
   headers: {
     "Content-Type": "application/json",
   },
@@ -17,5 +17,5 @@ AxiosInstance.interceptors.request.use((config) => {
 });
 
 export default AxiosInstance;
-// https://canopus-backend-ydod.onrender.com asgits
+// https://catering-backend-sa1h.onrender.com asgits
 // http://localhost:4000
